@@ -16,7 +16,7 @@
 
 # xosproject/internetemulator-synchronizer
 
-FROM xosproject/xos-synchronizer-base:candidate
+FROM cachengo/xos-synchronizer-base:2.0.0
 
 COPY . /opt/xos/synchronizers/internetemulator
 
